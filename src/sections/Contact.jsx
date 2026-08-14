@@ -137,7 +137,7 @@ function Contact() {
                 </div>
 
                 <a
-                  href="#"
+                  href="https://github.com/SaintKhay/"
                   className="mt-2 block text-sm text-[#3A4F66]/70 transition-colors hover:text-[#7F41EE]"
                 >
                   SaintKhay
@@ -155,7 +155,7 @@ function Contact() {
                 </div>
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/adesida-korede-772b55210/"
                   className="mt-2 block text-sm text-[#3A4F66]/70 transition-colors hover:text-[#7F41EE]"
                 >
                   Connect with me

@@ -28,8 +28,10 @@ function Footer() {
           <div className="flex items-center gap-3">
             <a
               href="#"
-              aria-label="Adesida Korede on GitHub"
               className="flex h-10 w-10 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-[#7F41EE]"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Adesida Korede on GitHub"
             >
               <FiGithub size={18} />
             </a>
@@ -38,6 +40,8 @@ function Footer() {
               href="#"
               aria-label="Adesida Korede on LinkedIn"
               className="flex h-10 w-10 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-[#7F41EE]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FiLinkedin size={18} />
             </a>
@@ -46,6 +50,8 @@ function Footer() {
               href="mailto:hello@saint.dev"
               aria-label="Email"
               className="flex h-10 w-10 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-[#7F41EE]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FiMail size={18} />
             </a>

@@ -20,6 +20,8 @@ function ProjectCard({ project, reverse }) {
             src={project.image}
             alt={`${project.title} website project by Adesida Korede`}
             className="aspect-[16/10] w-full object-cover transition-transform duration-500 hover:scale-105"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

@@ -3,12 +3,7 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#F4F4F4]">
-      <motion.div
-        initial={{ opacity: 0, y: 25 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, ease: "easeOut" }}
-        className="mx-auto flex min-h-[calc(100vh-81px)] max-w-5xl items-center justify-center px-6 py-20 text-center md:px-10 md:py-24 lg:px-16"
-      >
+      <div className="mx-auto flex min-h-[calc(100vh-81px)] max-w-5xl items-center justify-center px-6 py-20 text-center md:px-10 md:py-24 lg:px-16">
         <div>
           {/* Role */}
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.18em] text-[#7F41EE]">
@@ -20,7 +15,7 @@ function Hero() {
             Hi, I’m Adesida Korede.
           </p>
 
-          {/* Main Heading */}
+          {/* Main Heading — LCP */}
           <h1 className="mx-auto mt-4 max-w-3xl text-4xl font-normal leading-tight tracking-tight sm:text-5xl md:text-6xl">
             <span className="text-black">I build websites that</span>{" "}
             <span className="text-[#7F41EE]">help businesses grow.</span>
@@ -37,11 +32,9 @@ function Hero() {
             }}
             className="mx-auto mt-7 max-w-2xl text-base font-normal leading-7 text-[#3A4F66]/75 sm:text-lg"
           >
-            <p>
-              I create fast, responsive, and SEO-friendly websites that help
-              businesses establish a stronger online presence and turn visitors
-              into customers.
-            </p>
+            I create fast, responsive, and SEO-friendly websites that help
+            businesses establish a stronger online presence and turn visitors
+            into customers.
           </motion.p>
 
           {/* CTA */}
@@ -70,7 +63,7 @@ function Hero() {
             </a>
           </motion.div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Wavy Bottom */}
       <div className="relative h-16">

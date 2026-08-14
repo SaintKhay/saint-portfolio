@@ -2,6 +2,8 @@ import projectImage1 from "../asset/image/About-saint.jpg";
 import EdufyThumbnail from "../asset/image/Edufy-thumbnail.jpeg";
 import ElmCraftThumbnail from "../asset/image/ElmCraft-thumbnail.jpeg";
 import LoopstudiosThumbnail from "../asset/image/Loopstudios-thumbnail.jpeg";
+import NoireThumbnail from "../asset/image/Noire-thumbnail.jpeg";
+import WeatherAppThumbnail from "../asset/image/WeatherApp-thumbnail.svg";
 
 const projects = [
   {
@@ -11,7 +13,7 @@ const projects = [
     description:
       "A responsive e-commerce interface built with React, focused on product discovery, category navigation, and a smooth shopping experience across devices.",
     technologies: ["React", "JavaScript", "Tailwind CSS"],
-    image: projectImage1,
+    image: NoireThumbnail,
     liveUrl: "https://saintkhay.github.io/noire-store/",
     githubUrl: "https://github.com/SaintKhay/noire-store",
   },
@@ -22,7 +24,7 @@ const projects = [
     description:
       "A responsive React weather application that uses location and weather APIs to provide current conditions and forecast information through a clean, mobile-friendly interface..",
     technologies: ["React", "JavaScript", "Tailwind CSS", "API"],
-    image: projectImage1,
+    image: WeatherAppThumbnail,
     liveUrl: "https://saintkhay.github.io/Weather-App/",
     githubUrl: "https://github.com/SaintKhay/Weather-App",
   },
