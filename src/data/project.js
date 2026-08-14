@@ -6,8 +6,8 @@ const projects = [
     title: "Noire",
     category: "E-commerce",
     description:
-      "A modern fashion e-commerce website designed to provide a clean and responsive shopping experience.",
-    technologies: ["React", "JavaScript", "CSS"],
+      "A responsive e-commerce interface built with React, focused on product discovery, category navigation, and a smooth shopping experience across devices.",
+    technologies: ["React", "JavaScript", "Tailwind CSS"],
     image: projectImage1,
     liveUrl: "#",
     githubUrl: "#",
@@ -17,8 +17,8 @@ const projects = [
     title: "Weather App",
     category: "Web Application",
     description:
-      "A responsive weather application that uses location and weather APIs to provide real-time weather information.",
-    technologies: ["React", "JavaScript", "API"],
+      "A responsive React weather application that uses location and weather APIs to provide current conditions and forecast information through a clean, mobile-friendly interface..",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "API"],
     image: projectImage1,
     liveUrl: "#",
     githubUrl: "#",

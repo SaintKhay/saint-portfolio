@@ -39,9 +39,9 @@ function About() {
               </p>
 
               <p>
-                I enjoy turning ideas into practical digital experiences,
-                solving problems through code, and continuously improving the
-                way people interact with the web.
+                From business websites and landing pages to custom web
+                interfaces, I help businesses turn their ideas into effective
+                digital experiences.
               </p>
             </div>
 
@@ -65,7 +65,7 @@ function About() {
             <div className="h-full w-full overflow-hidden rounded-md border border-[#3A4F66]/10">
               <img
                 src={AboutSaint}
-                alt="Adesida Korede - Frontend Developer and Website Developer"
+                alt="Adesida Korede, frontend and website developer"
                 className="h-full w-full object-cover"
               />
             </div>

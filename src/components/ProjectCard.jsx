@@ -18,7 +18,7 @@ function ProjectCard({ project, reverse }) {
         <div className="overflow-hidden rounded-lg bg-[#F4F4F4]">
           <img
             src={project.image}
-            alt={`${project.title} project`}
+            alt={`${project.title} website project by Adesida Korede`}
             className="aspect-[16/10] w-full object-cover transition-transform duration-500 hover:scale-105"
           />
         </div>

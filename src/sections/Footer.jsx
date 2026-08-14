@@ -28,7 +28,7 @@ function Footer() {
           <div className="flex items-center gap-3">
             <a
               href="#"
-              aria-label="GitHub"
+              aria-label="Adesida Korede on GitHub"
               className="flex h-10 w-10 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-[#7F41EE]"
             >
               <FiGithub size={18} />
@@ -36,7 +36,7 @@ function Footer() {
 
             <a
               href="#"
-              aria-label="LinkedIn"
+              aria-label="Adesida Korede on LinkedIn"
               className="flex h-10 w-10 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-[#7F41EE]"
             >
               <FiLinkedin size={18} />

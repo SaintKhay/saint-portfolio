@@ -23,7 +23,7 @@ const services = [
     icon: FiSearch,
     title: "SEO & Optimization",
     description:
-      "I build websites with search visibility in mind, focusing on technical SEO, performance, structure, and content foundations that help search engines understand your site.",
+      " I apply technical and on-page SEO practices to help websites improve their search visibility, performance, and user experience..",
   },
 ];
 

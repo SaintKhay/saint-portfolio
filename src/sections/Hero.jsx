@@ -37,9 +37,11 @@ function Hero() {
             }}
             className="mx-auto mt-7 max-w-2xl text-base font-normal leading-7 text-[#3A4F66]/75 sm:text-lg"
           >
-            I create fast, responsive, and SEO-friendly websites that help
-            businesses build a stronger online presence, reach more customers,
-            and grow online.
+            <p>
+              I create fast, responsive, and SEO-friendly websites that help
+              businesses establish a stronger online presence and turn visitors
+              into customers.
+            </p>
           </motion.p>
 
           {/* CTA */}
