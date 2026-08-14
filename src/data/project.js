@@ -59,7 +59,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
     image: LoopstudiosThumbnail,
     liveUrl: "https://saintkhay.github.io/Loop-Studios/",
-    githubUrl: "https://github.com/SaintKhay/Loop-Studios",
+    githubUrl: "https://github.com/SaintKhay/Loopstudios",
   },
 ];
 
